@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class palindrone
+{
+	public static void main(String[] args)
+{
+	
+	Scanner sc=new Scanner(System.in);
+	int num=sc.nextInt();
+	int sum=0;
+	int r;
+	temp;
+	while(num>0)
+	{
+	r=n%10;
+	sum=(sum*10)+r;
+	n=n/10;
+	}
+	if(temp==num)
+		System.out.print("No. is palindrone");
+	else
+		System.out.print("No. is not palindrone");
+}
+}
