@@ -1,0 +1,16 @@
+.toastify-container {
+  width: 300px;
+}
+.toastify-toast {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+.toastify-success {
+  background-color: #4CAF50;
+  color: white;
+}
+.toastify-error {
+  background-color: #F44336;
+  color: white;
+}

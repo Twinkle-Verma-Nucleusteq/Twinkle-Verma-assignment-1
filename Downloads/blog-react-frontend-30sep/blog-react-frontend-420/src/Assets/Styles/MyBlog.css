@@ -1,0 +1,172 @@
+.sidebar {
+  width: 20%;
+  margin-top: 2%;
+  margin-right: 2%;
+  display: inline-block;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.dash {
+  margin-left: 25%;
+  margin-bottom: 40px;
+}
+
+.select2 {
+  margin-top: 35px;
+  width: 90%;
+  border: 1px solid rgb(190, 180, 180);
+  padding: 8px;
+}
+
+.dash2 {
+  margin-left: 25%;
+  margin-bottom: 25px;
+  color: black;
+}
+
+.company {
+  margin-bottom: 20%;
+  margin-left: 25px;
+  margin-top: 0px;
+}
+
+.log {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: small;
+  width: 90px;
+  border-radius: 5px;
+  margin-left: 25%;
+  margin-top: 85%;
+}
+
+.headbar {
+  width: 77%;
+    display: inline-block;
+    border-left: 3px solid rgb(233 115 14);
+    margin-bottom: 10%;
+}
+
+.navbar3 {
+  border-bottom: 1px solid rgb(241, 116, 6);
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  height: 80px;
+}
+
+
+.find3 {
+  border-radius: 20px;
+  padding-left: 5px;
+  margin-right: 25px;
+  margin-left: 25px;
+  width: 20%;
+  padding: 8px;
+  border: 1px solid rgb(190, 180, 180);
+}
+
+.celect3 {
+  border-radius: 20px;
+  margin-top: 32px;
+  width: 20%;
+  border: 1px solid rgb(190, 180, 180);
+  padding: 8px;
+  margin-right: 25px;
+}
+
+.Rimg {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 35%;
+  position: relative;
+  margin-top: 25px;
+}
+
+.part4 {
+  margin-top: 62%;
+  margin-left: 25px;
+}
+
+.photog {
+  width: 35px;
+  border-radius: 50%;
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  height: 35px;
+  position: relative;
+  position: relative;
+  bottom: 50%;
+}
+
+.greyspan {
+  margin-right: 25px;
+  margin-left: 10px;
+}
+
+.greyspan2 {
+  font-size: 20px;
+}
+
+.commnt {
+  border-radius: 20px;
+  padding-left: 5px;
+
+  margin-top: 25px;
+  width: 40%;
+  padding: 8px;
+  border: 1px solid rgb(190, 180, 180);
+  position: relative;
+  right: 3%;
+}
+
+.commnt2 {
+  border-radius: 20px;
+  padding-left: 5px;
+  margin-right: 4%;
+  margin-top: 4px;
+  width: 40%;
+  padding: 8px;
+  border: 1px solid rgb(190, 180, 180);
+  position: relative;
+  right: 0%;
+}
+
+.like {
+  border: none;
+  background-color: white;
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+.empty {
+  height: 50px;
+}
+
+.logoAcc3 {
+  height: 35px;
+  color: red;
+  width: 45px;
+  margin-left: 77px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    /* Take up the full width */
+    margin-right: 0;
+    /* No right margin */
+  }
+
+  .headbar {
+    width: 100%;
+    /* Take up the full width */
+    border-left: none;
+    /* Remove left border */
+  }
+}
